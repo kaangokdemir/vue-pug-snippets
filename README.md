@@ -10,6 +10,7 @@
 This is a VS Code snippet extension for `.vue` files with Pug.js templating. There are more than 32 extensions/options for creating your single file components' base.
 
 <img src='https://kaangokdemir.me/vue-pug-snippets/v-pug-gif.gif'>
+
 ## Installation
 
 #### First way (Recommended)

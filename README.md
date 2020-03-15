@@ -13,7 +13,7 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 
 ## Installation
 
-#### First way (Recommended)
+#### First way
 - Open VS Code
 
 - <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>X</kbd> (Mac - Linux)
@@ -24,7 +24,7 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 #### Second way
 - Download from [VS Code Extensions Marketplace](https://marketplace.visualstudio.com/items?itemName=kaangokdemir.vue-pug-snippets)
 
-### Third way
+#### Third way
 - `ext install vue-pug-snippets`
 
 

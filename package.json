@@ -1,8 +1,13 @@
 {
 	"name": "vue-pug-snippets",
 	"displayName": "vue-pug-snippets",
-	"description": "Pug.js syntax snippets for Vue.js",
+	"description": "Pug.js syntax VS Code snippets for Vue files",
 	"version": "0.0.1",
+	"publisher": "kaangokdemir",
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/kaangokdemir/vue-pug-snippets.git"
+  },
 	"engines": {
 		"vscode": "^1.43.0"
 	},
@@ -10,6 +15,10 @@
 		"Snippets"
 	],
 	"author": "Kaan Gökdemir <kaangokdemir01@gmail.com> (https://kaangokdemir.com)",
+	"scripts": {
+		"build": "vsce package -o vue-pug-snippets-$npm_package_version.vsix",
+		"install": "yarn build && code --install-extension vue-pug-snippets-$npm_package_version.vsix"
+	},
 	"contributes": {
 		"snippets": [
 			{

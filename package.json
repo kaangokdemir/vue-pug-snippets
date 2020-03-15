@@ -1,0 +1,21 @@
+{
+	"name": "vue-pug-snippets",
+	"displayName": "vue-pug-snippets",
+	"description": "Pug.js syntax snippets for Vue.js",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"author": "Kaan Gökdemir <kaangokdemir01@gmail.com> (https://kaangokdemir.com)",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "vue",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"Vue Single File Component": {
+		"prefix": "vpug",
+		"body": [
+			"<template lang=\"pug\">",
+			"\t.${1:${TM_FILENAME_BASE}}",
+			"</template>",
+			"",
+			"<script>",
+			"\texport default {",
+			"\t\tname:'${0:${TM_FILENAME_BASE}}'",
+			"\t}",
+			"</script>",
+			"",
+			"<style></style>"
+		],
+		"description": "Vue + Pug"
+	}
+}

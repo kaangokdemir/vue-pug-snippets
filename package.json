@@ -32,7 +32,11 @@
 		"snippets": [
 			{
 				"language": "vue",
-				"path": "./snippets/snippets.json"
+				"path": "./snippets/vase.json"
+			},
+			{
+				"language": "jade",
+				"path": "./snippets/template.json"
 			}
 		]
 	}

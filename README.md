@@ -7,8 +7,7 @@
 
 ## Description
 
-This is a VS Code snippet extension for `.vue` files with Pug.js templating. There are more than 32 extensions/options for creating your single file components' base.
-
+This is a VS Code snippet extension for `.vue` files with Pug.js templating. There are more than 32 extensions/options for creating your single file components' base and 16+ snippets which you can use in your template fields at your `.vue` files
 <img src='https://kaangokdemir.me/vue-pug-snippets/v-pug-gif.gif'>
 
 ## Installation
@@ -36,6 +35,9 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 <img src='https://kaangokdemir.me/vue-pug-snippets/snippet-logic.png'>
 
 ## Snippet List
+
+### Base Snippets
+
 |Snippet| Base Component with ...|
 |----|-----|
 |`vpug`| Vue + Pug |
@@ -70,6 +72,25 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 |`vpug-ts-cc-less-scoped`| Vue + Pug + TypeScript + Class Component + Less + Scoped |
 |`vpug-ts-cc-stylus`| Vue + Pug + TypeScript + Class Component + Stylus |
 |`vpug-ts-cc-stylus-scoped`| Vue + Pug + TypeScript + Class Component + Stylus + Scoped |
+
+### Template Snippets 
+#### Works inside `<template lang="pug">` or in your `.pug` files
+|Snippet| What it creates|
+|----|-----|
+|`vfor`| A `v-for` block |
+|`v-for`| An inline `v-for` statement |
+|`v-for-ik`| An inline `v-for` statement with index and key |
+|`vmodel`| A block with `v-model` directive |
+|`input`| An `input` block with `v-model` directive |
+|`vprop`| A custom component with a prop |
+|`vimg`| An image block with binded source and alt |
+|`:src`| `:src` directive with an alt text  |
+|`:style`| A style binding directive  |
+|`:style-obj`| Binded two style objectives in an array  |
+|`:class`| A binded class directive  |
+|`:transition`| A transition block with `name` and `mode`  |
+|`:router-link`| A `router-link`element with `:to` directive and a span  |
+|`:nuxt-link`| A `nuxt-link`element with `:to` directive and a span  |
 
 ## Contributing
 

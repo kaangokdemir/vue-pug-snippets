@@ -1,88 +1,115 @@
 {
-  "v-for": {
+  "vfor": {
     "prefix": "vfor",
     "body": [
       "${1:div}(v-for=\"${2:item} in ${3:items}\" :key=\"${0:item.id}\")",
       "\t| {{ ${5:item} }}"
     ],
-    "description": "v-for statement"
+    "description": "v-for statement with HTML element"
   },
-  "v-model": {
+  "v-for": {
+    "prefix": "v-for",
+    "body": [
+      "v-for=\"${1:item} in ${2:items}\" :key=\"${0:item.id}\""
+    ],
+    "description": "Simple inline v-for statement."
+  },
+  "v-for-ik": {
+    "prefix": "v-for-ik",
+    "body": [
+      "v-for=\"(${1:item}, index, key) in ${2:items}\" :key=\"${0:key}\""
+    ],
+    "description": "v-for inline with index and key"
+  },
+  "vmodel": {
     "prefix": "vmodel",
     "body": [
       "${1:input}(v-model=\"${0:data}\")"
     ],
-    "description": "v-model directive"
+    "description": "v-model directive in a block"
+  },
+  "input": {
+    "prefix": "input",
+    "body": [
+      "input(v-model=\"${0:data}\")"
+    ],
+    "description": "v-model directive input"
+  },
+  "v-model": {
+    "prefix": "v-model",
+    "body": [
+      "v-model=\"${0:data}\""
+    ],
+    "description": "v-model inline statement"
   },
   "vprop": {
     "prefix": "vprop",
     "body": [
       "${1:component}(:${2:propName}=\"${0}\")"
     ],
-    "description": "Component with a prop"
+    "description": "Vue component with a prop"
   },
   "vimg": {
     "prefix": "vimg",
     "body": [
       "img(:src=\"'${1:/path/to/images/}' + ${2:fileName}\" alt=\"${0:altText}\")"
     ],
-    "description": "image source binding"
+    "description": "Vue image source binding"
   },
-  "Vue Style Binding": {
-    "prefix": "vstyle",
+  ":src": {
+    "prefix": ":src",
     "body": [
-      "${1:div}(:style=\"{ fontSize: ${2:data} + 'px' }\")"
+      ":src=\"'${1:/path/to/images/}' + ${2:fileName}\" alt=\"${0:altText}\""
     ],
-    "description": "vue inline style binding"
+    "description": "inline source binding"
   },
-  "Vue Style Binding Object": {
-    "prefix": "vstyle-obj",
+  ":style": {
+    "prefix": ":style",
     "body": [
-      "${1:div}(:style=\"[${2:styleObjectA}, ${3:styleObjectB]}\")"
+      ":style=\"{ ${1:backgroundColor}: ${2:myColor} }\")"
     ],
-    "description": "vue inline style binding, objects"
+    "description": "Vue style binding"
   },
-  "Vue Class Binding": {
-    "prefix": "vclass",
+  ":style-obj": {
+    "prefix": ":style-obj",
     "body": [
-      "${1:div}(:class=\"{ ${2:className}: ${3:data} }\")"
+      ":style=\"[${1:styleObjectA}, ${2:styleObjectB]}\""
     ],
-    "description": "vue class binding"
+    "description": "Vue style binding with objects in an array"
   },
-  "Vue Class Binding Object": {
-    "prefix": "vclass-obj",
+  ":class": {
+    "prefix": ":class",
     "body": [
-      "${1:div}(:class=\"[${2:classNameA}, ${3:classNameB}]\")"
+      ":class=\"{ ${1:className}: ${2:condition} }\""
     ],
-    "description": "vue class binding"
+    "description": "Vue class binding"
   },
-  "Vue Multiple Conditional Class Bindings": {
-    "prefix": "vclass-obj-mult",
+  ":class-t": {
+    "prefix": ":class-t",
     "body": [
-      "${1:div}(:class=\"[${2:classNameA}, {${3:classNameB} : ${4:condition}}]\")"
+      ":class=\"${1:condition} ? '${2:true-class}' : '${3:false-class}'\""
     ],
-    "description": "vue multiple conditional class bindings"
+    "description": "Vue class binding with ternary operator"
   },
-  "Vue Transition Component with JavaScript Hooks": {
-    "prefix": "vanim",
+  "transition": {
+    "prefix": "transition",
     "body": [
-      "transition(",
-      "\tmode=\"out-in\"",
-      "\t@before-enter=\"beforeEnter\"",
-      "\t@enter=\"enter\"",
-      "",
-      "\t@before-leave=\"beforeLeave\"",
-      "\t@leave=\"leave\"",
-      "\t:css=\"false\"",
-      ")"
+      "transition(name='${1:fade}' mode='${2:out-in}')"
     ],
-    "description": "transition component js hooks"
+    "description": "Vue transition wrapper"
   },
-  "Vue Nuxt Routing Link": {
-    "prefix": "vnuxtl",
+  "router-link": {
+    "prefix": "router-link",
     "body": [
-      "nuxt-link(to=\"/${1:page}\") ${1:page}"
+      "router-link(to=\"/${1:page}\") ${2:My Page}"
     ],
-    "description": "nuxt routing link"
+    "description": "Vue router link"
+  },
+  "nuxt-link": {
+    "prefix": "nuxt-link",
+    "body": [
+      "nuxt-link(to=\"/${1:page}\") ${2:My Page}"
+    ],
+    "description": "Nuxt link"
   }
 }

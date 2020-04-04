@@ -2,7 +2,7 @@
 	"name": "vue-pug-snippets",
 	"displayName": "vue-pug-snippets",
 	"description": "Pug.js syntax VS Code snippets for Vue files",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"publisher": "kaangokdemir",
 	"icon": "images/vue-pug.png",
 	"repository": {
@@ -26,7 +26,8 @@
     "Vue Snippets",
     "Vue Pug Snippets",
     "Vue.js",
-    "Pug.js"
+		"Pug.js",
+		"Nuxt.js"
   ],
 	"contributes": {
 		"snippets": [

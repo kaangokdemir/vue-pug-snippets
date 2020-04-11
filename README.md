@@ -89,8 +89,8 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 |`:style-obj`| Binded two style objectives in an array  |
 |`:class`| A binded class directive  |
 |`:transition`| A transition block with `name` and `mode`  |
-|`:router-link`| A `router-link`element with `:to` directive and a span  |
-|`:nuxt-link`| A `nuxt-link`element with `:to` directive and a span  |
+|`router-link`| A `router-link`element with `:to` directive and a span  |
+|`nuxt-link`| A `nuxt-link`element with `:to` directive and a span  |
 
 ## Contributing
 

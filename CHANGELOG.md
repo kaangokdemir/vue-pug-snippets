@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.3.0
+
+- `Vue`and `Component`classes imported from `vue-property-decorator`instead of`vue-class-component`since it become an industry standard.
 
 ## 0.2.1
 

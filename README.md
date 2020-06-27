@@ -3,12 +3,12 @@
 [![Version](https://vsmarketplacebadge.apphb.com/version/kaangokdemir.vue-pug-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/kaangokdemir.vue-pug-snippets.svg) [![Install](https://vsmarketplacebadge.apphb.com/installs/kaangokdemir.vue-pug-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs-short/kaangokdemir.vue-pug-snippets.svg) [![Downloads](https://vsmarketplacebadge.apphb.com/downloads/kaangokdemir.vue-pug-snippets.svg)](https://vsmarketplacebadge.apphb.com/downloads-short/kaangokdemir.vue-pug-snippets.svg) [![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/kaangokdemir.vue-pug-snippets.svg)](https://vsmarketplacebadge.apphb.com/rating-short/kaangokdemir.vue-pug-snippets.svg)
 
 
-<img src='https://kaangokdemir.me/vue-pug-snippets/vue-pug.png'  height=250>
+<img src='https://i.imgur.com/YjZt1tb.png' height=250>
 
 ## Description
 
 This is a VS Code snippet extension for `.vue` files with Pug.js templating. There are more than 32 extensions/options for creating your single file components' base and 16+ snippets which you can use in your template fields at your `.vue` files
-<img src='https://kaangokdemir.me/vue-pug-snippets/v-pug-gif.gif'>
+<img src='https://i.imgur.com/QvEmLtW.gif'>
 
 ## Installation
 
@@ -32,7 +32,7 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 
 ## Snippets Logic
 
-<img src='https://kaangokdemir.me/vue-pug-snippets/snippet-logic.png'>
+<img src='https://i.imgur.com/y3d1OLB.png'>
 
 ## Snippet List
 

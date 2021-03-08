@@ -43,7 +43,9 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 |`vpug`| Vue + Pug |
 |`vpug-scoped`| Vue + Pug + Scoped |
 |`vpug-scss`| Vue + Pug + Scss |
+|`vpug-sass`| Vue + Pug + Sass |
 |`vpug-scss-scoped`| Vue + Pug + Scss + Scoped |
+|`vpug-sass-scoped`| Vue + Pug + Sass + Scoped |
 |`vpug-less`| Vue + Pug + Less |
 |`vpug-less-scoped`| Vue + Pug + Less + Scoped |
 |`vpug-stylus`| Vue + Pug + Stylus |
@@ -51,7 +53,9 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 |`vpug-cc`| Vue + Pug + Class Component |
 |`vpug-cc-scoped`| Vue + Pug + Class Component + Scoped |
 |`vpug-cc-scss`| Vue + Pug + Class Component + Scss |
+|`vpug-cc-sass`| Vue + Pug + Class Component + Sass |
 |`vpug-cc-scss-scoped`| Vue + Pug + Class Component + Scss + Scoped |
+|`vpug-cc-sass-scoped`| Vue + Pug + Class Component + Sass + Scoped |
 |`vpug-cc-less`| Vue + Pug + Class Component + Less |
 |`vpug-cc-less-scoped`| Vue + Pug + Class Component + Less + Scoped |
 |`vpug-cc-stylus`| Vue + Pug + Class Component + Stylus |
@@ -59,7 +63,9 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 |`vpug-ts`| Vue + Pug + TypeScript |
 |`vpug-ts-scoped`| Vue + Pug + TypeScript + Scoped |
 |`vpug-ts-scss`| Vue + Pug + TypeScript + Scss |
+|`vpug-ts-sass`| Vue + Pug + TypeScript + Sass |
 |`vpug-ts-scss-scoped`| Vue + Pug + TypeScript + Scss + Scoped |
+|`vpug-ts-sass-scoped`| Vue + Pug + TypeScript + Sass + Scoped |
 |`vpug-ts-less`| Vue + Pug + TypeScript + Less |
 |`vpug-ts-less-scoped`| Vue + Pug + TypeScript + Less + Scoped |
 |`vpug-ts-stylus`| Vue + Pug + TypeScript + Stylus |
@@ -67,7 +73,9 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 |`vpug-ts-cc`| Vue + Pug + TypeScript + Class Component |
 |`vpug-ts-cc-scoped`| Vue + Pug + TypeScript + Class Component + Scoped |
 |`vpug-ts-cc-scss`| Vue + Pug + TypeScript + Class Component + Scss |
+|`vpug-ts-cc-sass`| Vue + Pug + TypeScript + Class Component + Sass |
 |`vpug-ts-cc-scss-scoped`| Vue + Pug + TypeScript + Class Component + Scss + Scoped |
+|`vpug-ts-cc-sass-scoped`| Vue + Pug + TypeScript + Class Component + Sass + Scoped |
 |`vpug-ts-cc-less`| Vue + Pug + TypeScript + Class Component + Less |
 |`vpug-ts-cc-less-scoped`| Vue + Pug + TypeScript + Class Component + Less + Scoped |
 |`vpug-ts-cc-stylus`| Vue + Pug + TypeScript + Class Component + Stylus |

@@ -2,7 +2,6 @@
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/kaangokdemir.vue-pug-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/kaangokdemir.vue-pug-snippets.svg) [![Install](https://vsmarketplacebadge.apphb.com/installs/kaangokdemir.vue-pug-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs-short/kaangokdemir.vue-pug-snippets.svg) [![Downloads](https://vsmarketplacebadge.apphb.com/downloads/kaangokdemir.vue-pug-snippets.svg)](https://vsmarketplacebadge.apphb.com/downloads-short/kaangokdemir.vue-pug-snippets.svg) [![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/kaangokdemir.vue-pug-snippets.svg)](https://vsmarketplacebadge.apphb.com/rating-short/kaangokdemir.vue-pug-snippets.svg)
 
-
 <img src='https://i.imgur.com/YjZt1tb.png' height=250>
 
 ## Description
@@ -13,6 +12,7 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 ## Installation
 
 #### First way
+
 - Open VS Code
 
 - <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>X</kbd> (Mac - Linux)
@@ -21,13 +21,15 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 - Type `vue-pug-snippets` and install the snippet by `Kaan Gökdemir`
 
 #### Second way
+
 - Download from [VS Code Extensions Marketplace](https://marketplace.visualstudio.com/items?itemName=kaangokdemir.vue-pug-snippets)
 
 #### Third way
+
 - `ext install vue-pug-snippets`
 
-
 ## Supported Languages (file extensions)
+
 - Vue.JS - `.vue`
 
 ## Snippets Logic
@@ -83,22 +85,23 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 
 ### Template Snippets 
 #### Works inside `<template lang="pug">` or in your `.pug` files
-|Snippet| What it creates|
-|----|-----|
-|`vfor`| A `v-for` block |
-|`v-for`| An inline `v-for` statement |
-|`v-for-ik`| An inline `v-for` statement with index and key |
-|`vmodel`| A block with `v-model` directive |
-|`input`| An `input` block with `v-model` directive |
-|`vprop`| A custom component with a prop |
-|`vimg`| An image block with binded source and alt |
-|`:src`| `:src` directive with an alt text  |
-|`:style`| A style binding directive  |
-|`:style-obj`| Binded two style objectives in an array  |
-|`:class`| A binded class directive  |
-|`transition`| A transition block with `name` and `mode`  |
-|`router-link`| A `router-link`element with `:to` directive and a span  |
-|`nuxt-link`| A `nuxt-link`element with `:to` directive and a span  |
+
+| Snippet       | What it creates                                        |
+| ------------- | ------------------------------------------------------ |
+| `vfor`        | A `v-for` block                                        |
+| `v-for`       | An inline `v-for` statement                            |
+| `v-for-ik`    | An inline `v-for` statement with index and key         |
+| `vmodel`      | A block with `v-model` directive                       |
+| `input`       | An `input` block with `v-model` directive              |
+| `vprop`       | A custom component with a prop                         |
+| `vimg`        | An image block with binded source and alt              |
+| `:src`        | `:src` directive with an alt text                      |
+| `:style`      | A style binding directive                              |
+| `:style-obj`  | Binded two style objectives in an array                |
+| `:class`      | A binded class directive                               |
+| `transition`  | A transition block with `name` and `mode`              |
+| `router-link` | A `router-link`element with `:to` directive and a span |
+| `nuxt-link`   | A `nuxt-link`element with `:to` directive and a span   |
 
 ## Contributing
 
@@ -111,6 +114,10 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 ## Contributors
 
 Kaan Gökdemir - Maintainer ([@kaangokdemir](https://twitter.com/kaangokdemir)) - [kaangokdemir.com](https://kaangokdemir.com)
+
+## TODO
+
+- Add`vue3` composition API support.
 
 ## License
 

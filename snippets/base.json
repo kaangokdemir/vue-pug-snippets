@@ -1,626 +1,626 @@
 {
-	"vue-pug": {
-		"prefix": "vpug",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"export default {",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"}",
-			"</script>",
-			"",
-			"<style></style>",
-			""
-		],
-		"description": "Vue + Pug"
-	},
-	"vue-pug-scoped": {
-		"prefix": "vpug-scoped",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"export default {",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"}",
-			"</script>",
-			"",
-			"<style scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + Scoped"
-	},
-	"vue-pug-scss": {
-		"prefix": "vpug-scss",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"export default {",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"scss\"></style>",
-			""
-		],
-		"description": "Vue + Pug + Scss"
-	},
-	"vue-pug-scss-scoped": {
-		"prefix": "vpug-scss-scoped",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"export default {",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"scss\" scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + Scss + Scoped"
-	},
-	"vue-pug-less": {
-		"prefix": "vpug-less",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"export default {",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"less\"></style>",
-			""
-		],
-		"description": "Vue + Pug + Less"
-	},
-	"vue-pug-less-scoped": {
-		"prefix": "vpug-less-scoped",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"export default {",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"less\" scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + Less + Scoped"
-	},
-	"vue-pug-stylus": {
-		"prefix": "vpug-stylus",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"export default {",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"stylus\"></style>",
-			""
-		],
-		"description": "Vue + Pug + Stylus"
-	},
-	"vue-pug-stylus-scoped": {
-		"prefix": "vpug-stylus-scoped",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"export default {",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"stylus\" scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + Stylus + Scoped"
-	},
-	"vue-pug-cc": {
-		"prefix": "vpug-cc",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style></style>",
-			""
-		],
-		"description": "Vue + Pug + Class Component"
-	},
-	"vue-pug-cc-scoped": {
-		"prefix": "vpug-cc-scoped",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + Class Component + Scoped"
-	},
-	"vue-pug-cc-scss": {
-		"prefix": "vpug-cc-scss",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"scss\"></style>",
-			""
-		],
-		"description": "Vue + Pug + Class Component + Scss"
-	},
-	"vue-pug-cc-scss-scoped": {
-		"prefix": "vpug-cc-scss-scoped",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"scss\" scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + Class Component + Scss + Scoped"
-	},
-	"vue-pug-cc-less": {
-		"prefix": "vpug-cc-less",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"less\"></style>",
-			""
-		],
-		"description": "Vue + Pug + Class Component + Less"
-	},
-	"vue-pug-cc-less-scoped": {
-		"prefix": "vpug-cc-less-scoped",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"less\" scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + Class Component + Less + Scoped"
-	},
-	"vue-pug-cc-stylus": {
-		"prefix": "vpug-cc-stylus",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"stylus\"></style>",
-			""
-		],
-		"description": "Vue + Pug + Class Component + Stylus"
-	},
-	"vue-pug-cc-stylus-scoped": {
-		"prefix": "vpug-cc-stylus-scoped",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script>",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"stylus\" scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + Class Component + Stylus + Scoped"
-	},
-	"vue-pug-ts": {
-		"prefix": "vpug-ts",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import Vue from 'vue'",
-			"",
+  "vue-pug": {
+    "prefix": "vpug",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "}",
+      "</script>",
+      "",
+      "<style></style>",
+      ""
+    ],
+    "description": "Vue + Pug"
+  },
+  "vue-pug-scoped": {
+    "prefix": "vpug-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "}",
+      "</script>",
+      "",
+      "<style scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Scoped"
+  },
+  "vue-pug-scss": {
+    "prefix": "vpug-scss",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"scss\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Scss"
+  },
+  "vue-pug-scss-scoped": {
+    "prefix": "vpug-scss-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Scss + Scoped"
+  },
+  "vue-pug-less": {
+    "prefix": "vpug-less",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"less\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Less"
+  },
+  "vue-pug-less-scoped": {
+    "prefix": "vpug-less-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"less\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Less + Scoped"
+  },
+  "vue-pug-stylus": {
+    "prefix": "vpug-stylus",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"stylus\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Stylus"
+  },
+  "vue-pug-stylus-scoped": {
+    "prefix": "vpug-stylus-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"stylus\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Stylus + Scoped"
+  },
+  "vue-pug-cc": {
+    "prefix": "vpug-cc",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Class Component"
+  },
+  "vue-pug-cc-scoped": {
+    "prefix": "vpug-cc-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Class Component + Scoped"
+  },
+  "vue-pug-cc-scss": {
+    "prefix": "vpug-cc-scss",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"scss\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Class Component + Scss"
+  },
+  "vue-pug-cc-scss-scoped": {
+    "prefix": "vpug-cc-scss-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Class Component + Scss + Scoped"
+  },
+  "vue-pug-cc-less": {
+    "prefix": "vpug-cc-less",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"less\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Class Component + Less"
+  },
+  "vue-pug-cc-less-scoped": {
+    "prefix": "vpug-cc-less-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"less\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Class Component + Less + Scoped"
+  },
+  "vue-pug-cc-stylus": {
+    "prefix": "vpug-cc-stylus",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"stylus\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Class Component + Stylus"
+  },
+  "vue-pug-cc-stylus-scoped": {
+    "prefix": "vpug-cc-stylus-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"stylus\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Class Component + Stylus + Scoped"
+  },
+  "vue-pug-ts": {
+    "prefix": "vpug-ts",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import Vue from 'vue'",
+      "",
       "export default Vue.extend({",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"})",
-			"</script>",
-			"",
-			"<style></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript"
-	},
-	"vue-pug-ts-scoped": {
-		"prefix": "vpug-ts",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import Vue from 'vue'",
-			"",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript"
+  },
+  "vue-pug-ts-scoped": {
+    "prefix": "vpug-ts",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import Vue from 'vue'",
+      "",
       "export default Vue.extend({",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"})",
-			"</script>",
-			"",
-			"<style scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript + Scoped"
-	},
-	"vue-pug-ts-scss": {
-		"prefix": "vpug-ts-scss",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import Vue from 'vue'",
-			"",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Scoped"
+  },
+  "vue-pug-ts-scss": {
+    "prefix": "vpug-ts-scss",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import Vue from 'vue'",
+      "",
       "export default Vue.extend({",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"})",
-			"</script>",
-			"",
-			"<style lang=\"scss\"></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript + Scss"
-	},
-	"vue-pug-ts-scss-scoped": {
-		"prefix": "vpug-ts-scss-scoped",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import Vue from 'vue'",
-			"",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"scss\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Scss"
+  },
+  "vue-pug-ts-scss-scoped": {
+    "prefix": "vpug-ts-scss-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import Vue from 'vue'",
+      "",
       "export default Vue.extend({",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"})",
-			"</script>",
-			"",
-			"<style lang=\"scss\" scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript + Scss + Scoped"
-	},
-	"vue-pug-ts-less": {
-		"prefix": "vpug-ts-less",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import Vue from 'vue'",
-			"",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Scss + Scoped"
+  },
+  "vue-pug-ts-less": {
+    "prefix": "vpug-ts-less",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import Vue from 'vue'",
+      "",
       "export default Vue.extend({",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"})",
-			"</script>",
-			"",
-			"<style lang=\"less\"></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript + Less"
-	},
-	"vue-pug-ts-less-scoped": {
-		"prefix": "vpug-ts-less-scoped",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import Vue from 'vue'",
-			"",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"less\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Less"
+  },
+  "vue-pug-ts-less-scoped": {
+    "prefix": "vpug-ts-less-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import Vue from 'vue'",
+      "",
       "export default Vue.extend({",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"})",
-			"</script>",
-			"",
-			"<style lang=\"less\" scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript + Less + Scoped"
-	},
-	"vue-pug-ts-stylus": {
-		"prefix": "vpug-ts-stylus",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import Vue from 'vue'",
-			"",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"less\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Less + Scoped"
+  },
+  "vue-pug-ts-stylus": {
+    "prefix": "vpug-ts-stylus",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import Vue from 'vue'",
+      "",
       "export default Vue.extend({",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"})",
-			"</script>",
-			"",
-			"<style lang=\"stylus\"></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript + Stylus"
-	},
-	"vue-pug-ts-stylus-scoped": {
-		"prefix": "vpug-ts-stylus-scoped",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import Vue from 'vue'",
-			"",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"stylus\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Stylus"
+  },
+  "vue-pug-ts-stylus-scoped": {
+    "prefix": "vpug-ts-stylus-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import Vue from 'vue'",
+      "",
       "export default Vue.extend({",
-			"\tname: '${0:${TM_FILENAME_BASE}}'",
-			"})",
-			"</script>",
-			"",
-			"<style lang=\"stylus\" scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript + Stylus + Scoped"
-	},
-	"vue-pug-ts-cc": {
-		"prefix": "vpug-ts-cc",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript + Class Component"
-	},
-	"vue-pug-ts-cc-scoped": {
-		"prefix": "vpug-ts-cc-scoped",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript + Class Component + Scoped"
-	},
-	"vue-pug-ts-cc-scss": {
-		"prefix": "vpug-ts-cc-scss",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"scss\"></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript + Class Component + Scss"
-	},
-	"vue-pug-ts-cc-scss-scoped": {
-		"prefix": "vpug-ts-cc-scss-scoped",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"scss\" scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript + Class Component + Scss + Scoped"
-	},
-	"vue-pug-ts-cc-less": {
-		"prefix": "vpug-ts-cc-less",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"less\"></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript + Class Component + Less"
-	},
-	"vue-pug-ts-cc-less-scoped": {
-		"prefix": "vpug-ts-cc-less-scoped",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"less\" scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript + Class Component + Less + Scoped"
-	},
-	"vue-pug-ts-cc-stylus": {
-		"prefix": "vpug-ts-cc-stylus",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"stylus\"></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript + Class Component + Stylus"
-	},
-	"vue-pug-ts-cc-stylus-scoped": {
-		"prefix": "vpug-ts-cc-stylus-scoped",
-		"body": [
-			"<template lang=\"pug\">",
-			"\t${1:.${TM_FILENAME_BASE}}",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"import { Component, Vue } from 'vue-property-decorator'",
-			"",
-			"@Component",
-			"export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
-			"}",
-			"</script>",
-			"",
-			"<style lang=\"stylus\" scoped></style>",
-			""
-		],
-		"description": "Vue + Pug + TypeScript + Class Component + Stylus + Scoped"
-	}
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"stylus\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Stylus + Scoped"
+  },
+  "vue-pug-ts-cc": {
+    "prefix": "vpug-ts-cc",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Class Component"
+  },
+  "vue-pug-ts-cc-scoped": {
+    "prefix": "vpug-ts-cc-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Class Component + Scoped"
+  },
+  "vue-pug-ts-cc-scss": {
+    "prefix": "vpug-ts-cc-scss",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"scss\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Class Component + Scss"
+  },
+  "vue-pug-ts-cc-scss-scoped": {
+    "prefix": "vpug-ts-cc-scss-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Class Component + Scss + Scoped"
+  },
+  "vue-pug-ts-cc-less": {
+    "prefix": "vpug-ts-cc-less",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"less\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Class Component + Less"
+  },
+  "vue-pug-ts-cc-less-scoped": {
+    "prefix": "vpug-ts-cc-less-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"less\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Class Component + Less + Scoped"
+  },
+  "vue-pug-ts-cc-stylus": {
+    "prefix": "vpug-ts-cc-stylus",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"stylus\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Class Component + Stylus"
+  },
+  "vue-pug-ts-cc-stylus-scoped": {
+    "prefix": "vpug-ts-cc-stylus-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "\t${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"stylus\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Class Component + Stylus + Scoped"
+  }
 }

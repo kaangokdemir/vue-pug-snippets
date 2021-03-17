@@ -1,0 +1,16 @@
+# js vendor file with import/require
+assets/vendor/**
+# static vendor file . use with nuxt.config.js script
+node_modules
+# Nuxt build
+.nuxt
+# Nuxt generate
+dist
+# Old Theme components
+views
+# lib
+lib
+# gitignore
+.gitignore
+deploy
+dist/**

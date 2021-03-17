@@ -9,9 +9,7 @@
   },
   "v-for": {
     "prefix": "v-for",
-    "body": [
-      "v-for=\"${1:item} in ${2:items}\" :key=\"${0:item.id}\""
-    ],
+    "body": ["v-for=\"${1:item} in ${2:items}\" :key=\"${0:item.id}\""],
     "description": "Simple inline v-for statement."
   },
   "v-for-ik": {
@@ -23,30 +21,22 @@
   },
   "vmodel": {
     "prefix": "vmodel",
-    "body": [
-      "${1:input}(v-model=\"${0:data}\")"
-    ],
+    "body": ["${1:input}(v-model=\"${0:data}\")"],
     "description": "v-model directive in a block"
   },
   "input": {
     "prefix": "input",
-    "body": [
-      "input(v-model=\"${0:data}\")"
-    ],
+    "body": ["input(v-model=\"${0:data}\")"],
     "description": "v-model directive input"
   },
   "v-model": {
     "prefix": "v-model",
-    "body": [
-      "v-model=\"${0:data}\""
-    ],
+    "body": ["v-model=\"${0:data}\""],
     "description": "v-model inline statement"
   },
   "vprop": {
     "prefix": "vprop",
-    "body": [
-      "${1:component}(:${2:propName}=\"${0}\")"
-    ],
+    "body": ["${1:component}(:${2:propName}=\"${0}\")"],
     "description": "Vue component with a prop"
   },
   "vimg": {
@@ -65,23 +55,17 @@
   },
   ":style": {
     "prefix": ":style",
-    "body": [
-      ":style=\"{ ${1:backgroundColor}: ${2:myColor} }\")"
-    ],
+    "body": [":style=\"{ ${1:backgroundColor}: ${2:myColor} }\")"],
     "description": "Vue style binding"
   },
   ":style-obj": {
     "prefix": ":style-obj",
-    "body": [
-      ":style=\"[${1:styleObjectA}, ${2:styleObjectB]}\""
-    ],
+    "body": [":style=\"[${1:styleObjectA}, ${2:styleObjectB]}\""],
     "description": "Vue style binding with objects in an array"
   },
   ":class": {
     "prefix": ":class",
-    "body": [
-      ":class=\"{ ${1:className}: ${2:condition} }\""
-    ],
+    "body": [":class=\"{ ${1:className}: ${2:condition} }\""],
     "description": "Vue class binding"
   },
   ":class-t": {
@@ -93,23 +77,17 @@
   },
   "transition": {
     "prefix": "transition",
-    "body": [
-      "transition(name='${1:fade}' mode='${2:out-in}')"
-    ],
+    "body": ["transition(name='${1:fade}' mode='${2:out-in}')"],
     "description": "Vue transition wrapper"
   },
   "router-link": {
     "prefix": "router-link",
-    "body": [
-      "router-link(to=\"/${1:page}\") ${2:My Page}"
-    ],
+    "body": ["router-link(to=\"/${1:page}\") ${2:My Page}"],
     "description": "Vue router link"
   },
   "nuxt-link": {
     "prefix": "nuxt-link",
-    "body": [
-      "nuxt-link(to=\"/${1:page}\") ${2:My Page}"
-    ],
+    "body": ["nuxt-link(to=\"/${1:page}\") ${2:My Page}"],
     "description": "Nuxt link"
   }
 }

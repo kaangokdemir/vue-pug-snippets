@@ -1,44 +1,59 @@
 {
-	"name": "vue-pug-snippets",
-	"displayName": "vue-pug-snippets",
-	"description": "Pug.js syntax VS Code snippets for Vue files",
-	"version": "0.3.1",
-	"publisher": "kaangokdemir",
-	"icon": "images/vue-pug.png",
-	"repository": {
+  "name": "vue-pug-snippets",
+  "displayName": "vue-pug-snippets",
+  "description": "Pug.js syntax VS Code snippets for Vue files",
+  "version": "0.3.1",
+  "publisher": "kaangokdemir",
+  "icon": "images/vue-pug.png",
+  "repository": {
     "type": "git",
     "url": "https://github.com/kaangokdemir/vue-pug-snippets.git"
   },
-	"engines": {
-		"vscode": "^1.43.0"
-	},
-	"categories": [
-		"Snippets"
-	],
-	"author": "Kaan Gökdemir <kaangokdemir01@gmail.com> (https://kaangokdemir.com)",
-	"scripts": {
-		"build": "vsce package -o vue-pug-snippets-$npm_package_version.vsix",
-		"install": "yarn build && code --install-extension vue-pug-snippets-$npm_package_version.vsix"
-	},
-	"keywords": [
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "author": "Kaan Gökdemir <kaangokdemir01@gmail.com> (https://kaangokdemir.com)",
+  "scripts": {
+    "build": "vsce package -o vue-pug-snippets-$npm_package_version.vsix",
+    "after-install": "yarn build && code --install-extension vue-pug-snippets-$npm_package_version.vsix",
+    "lint": "eslint --ext .js,.ts --ignore-path .eslintignore .",
+    "lint:fix": "eslint --fix --ext .js,.ts --ignore-path .eslintignore .",
+    "prettier": "prettier --write '**/*.{ts,js,css,html,sass,vue,scss,md,json,yml}'",
+    "pretty": "npm run prettier && npm run lint:fix"
+  },
+  "keywords": [
     "Vue",
     "Pug",
     "Vue Snippets",
     "Vue Pug Snippets",
     "Vue.js",
-		"Pug.js",
-		"Nuxt.js"
+    "Pug.js",
+    "Nuxt.js"
   ],
-	"contributes": {
-		"snippets": [
-			{
-				"language": "vue",
-				"path": "./snippets/base.json"
-			},
-			{
-				"language": "jade",
-				"path": "./snippets/template.json"
-			}
-		]
-	}
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/base.json"
+      },
+      {
+        "language": "jade",
+        "path": "./snippets/template.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "eslint": "^7.21.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.3"
+  }
 }

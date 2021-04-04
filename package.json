@@ -2,7 +2,7 @@
   "name": "vue-pug-snippets",
   "displayName": "vue-pug-snippets",
   "description": "Pug.js syntax VS Code snippets for Vue files",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "publisher": "kaangokdemir",
   "icon": "images/vue-pug.png",
   "repository": {
@@ -18,7 +18,7 @@
   "author": "Kaan Gökdemir <kaangokdemir01@gmail.com> (https://kaangokdemir.com)",
   "scripts": {
     "build": "vsce package -o vue-pug-snippets-$npm_package_version.vsix",
-    "after-install": "yarn build && code --install-extension vue-pug-snippets-$npm_package_version.vsix",
+    "after-install": "npm run build && code --install-extension vue-pug-snippets-$npm_package_version.vsix",
     "lint": "eslint --ext .js,.ts --ignore-path .eslintignore .",
     "lint:fix": "eslint --fix --ext .js,.ts --ignore-path .eslintignore .",
     "prettier": "prettier --write '**/*.{ts,js,css,html,sass,vue,scss,md,json,yml}'",

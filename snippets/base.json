@@ -3,7 +3,7 @@
     "prefix": "vpug",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -21,7 +21,7 @@
     "prefix": "vpug-scoped",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -39,7 +39,7 @@
     "prefix": "vpug-scss",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -57,7 +57,7 @@
     "prefix": "vpug-scss-scoped",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -75,7 +75,7 @@
     "prefix": "vpug-less",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -93,7 +93,7 @@
     "prefix": "vpug-less-scoped",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -111,7 +111,7 @@
     "prefix": "vpug-stylus",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -129,7 +129,7 @@
     "prefix": "vpug-stylus-scoped",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -147,7 +147,7 @@
     "prefix": "vpug-cc",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -167,7 +167,7 @@
     "prefix": "vpug-cc-scoped",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -187,7 +187,7 @@
     "prefix": "vpug-cc-scss",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -207,7 +207,7 @@
     "prefix": "vpug-cc-scss-scoped",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -227,7 +227,7 @@
     "prefix": "vpug-cc-less",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -247,7 +247,7 @@
     "prefix": "vpug-cc-less-scoped",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -267,7 +267,7 @@
     "prefix": "vpug-cc-stylus",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -287,7 +287,7 @@
     "prefix": "vpug-cc-stylus-scoped",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script>",
@@ -303,11 +303,171 @@
     ],
     "description": "Vue + Pug + Class Component + Stylus + Scoped"
   },
+  "vue-pug-dc": {
+    "prefix": "vpug-dc",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component"
+  },
+  "vue-pug-dc-scoped": {
+    "prefix": "vpug-dc-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Scoped"
+  },
+  "vue-pug-dc-scss": {
+    "prefix": "vpug-dc-scss",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"scss\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Scss"
+  },
+  "vue-pug-dc-scss-scoped": {
+    "prefix": "vpug-dc-scss-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Scss + Scoped"
+  },
+  "vue-pug-dc-less": {
+    "prefix": "vpug-dc-less",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"less\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Less"
+  },
+  "vue-pug-dc-less-scoped": {
+    "prefix": "vpug-dc-less-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"less\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Less + Scoped"
+  },
+  "vue-pug-dc-stylus": {
+    "prefix": "vpug-dc-stylus",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"stylus\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Stylus"
+  },
+  "vue-pug-dc-stylus-scoped": {
+    "prefix": "vpug-dc-stylus-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"stylus\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Stylus + Scoped"
+  },
   "vue-pug-ts": {
     "prefix": "vpug-ts",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -327,7 +487,7 @@
     "prefix": "vpug-ts",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -347,7 +507,7 @@
     "prefix": "vpug-ts-scss",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -367,7 +527,7 @@
     "prefix": "vpug-ts-scss-scoped",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -387,7 +547,7 @@
     "prefix": "vpug-ts-less",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -407,7 +567,7 @@
     "prefix": "vpug-ts-less-scoped",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -427,7 +587,7 @@
     "prefix": "vpug-ts-stylus",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -447,7 +607,7 @@
     "prefix": "vpug-ts-stylus-scoped",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -467,7 +627,7 @@
     "prefix": "vpug-ts-cc",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -487,7 +647,7 @@
     "prefix": "vpug-ts-cc-scoped",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -507,7 +667,7 @@
     "prefix": "vpug-ts-cc-scss",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -527,7 +687,7 @@
     "prefix": "vpug-ts-cc-scss-scoped",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -547,7 +707,7 @@
     "prefix": "vpug-ts-cc-less",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -567,7 +727,7 @@
     "prefix": "vpug-ts-cc-less-scoped",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -587,7 +747,7 @@
     "prefix": "vpug-ts-cc-stylus",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -607,7 +767,7 @@
     "prefix": "vpug-ts-cc-stylus-scoped",
     "body": [
       "<template lang=\"pug\">",
-      "\t${1:.${TM_FILENAME_BASE}}",
+      "${1:.${TM_FILENAME_BASE}}",
       "</template>",
       "",
       "<script lang=\"ts\">",
@@ -622,5 +782,165 @@
       ""
     ],
     "description": "Vue + Pug + TypeScript + Class Component + Stylus + Scoped"
+  },
+  "vue-pug-ts-dc": {
+    "prefix": "vpug-ts-dc",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component"
+  },
+  "vue-pug-ts-dc-scoped": {
+    "prefix": "vpug-ts-dc-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Scoped"
+  },
+  "vue-pug-ts-dc-scss": {
+    "prefix": "vpug-ts-dc-scss",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"scss\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Scss"
+  },
+  "vue-pug-ts-dc-scss-scoped": {
+    "prefix": "vpug-ts-dc-scss-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Scss + Scoped"
+  },
+  "vue-pug-ts-dc-less": {
+    "prefix": "vpug-ts-dc-less",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"less\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Less"
+  },
+  "vue-pug-ts-dc-less-scoped": {
+    "prefix": "vpug-ts-dc-less-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"less\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Less + Scoped"
+  },
+  "vue-pug-ts-dc-stylus": {
+    "prefix": "vpug-ts-dc-stylus",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"stylus\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Stylus"
+  },
+  "vue-pug-ts-dc-stylus-scoped": {
+    "prefix": "vpug-ts-dc-stylus-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"stylus\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Stylus + Scoped"
   }
 }

@@ -40,40 +40,56 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 
 ### Base Snippets
 
-| Snippet                    | Base Component with ...                                    |
-| -------------------------- | ---------------------------------------------------------- |
-| `vpug`                     | Vue + Pug                                                  |
-| `vpug-scoped`              | Vue + Pug + Scoped                                         |
-| `vpug-scss`                | Vue + Pug + Scss                                           |
-| `vpug-scss-scoped`         | Vue + Pug + Scss + Scoped                                  |
-| `vpug-less`                | Vue + Pug + Less                                           |
-| `vpug-less-scoped`         | Vue + Pug + Less + Scoped                                  |
-| `vpug-stylus`              | Vue + Pug + Stylus                                         |
-| `vpug-stylus-scoped`       | Vue + Pug + Stylus + Scoped                                |
-| `vpug-cc`                  | Vue + Pug + Class Component                                |
-| `vpug-cc-scoped`           | Vue + Pug + Class Component + Scoped                       |
-| `vpug-cc-scss`             | Vue + Pug + Class Component + Scss                         |
-| `vpug-cc-scss-scoped`      | Vue + Pug + Class Component + Scss + Scoped                |
-| `vpug-cc-less`             | Vue + Pug + Class Component + Less                         |
-| `vpug-cc-less-scoped`      | Vue + Pug + Class Component + Less + Scoped                |
-| `vpug-cc-stylus`           | Vue + Pug + Class Component + Stylus                       |
-| `vpug-cc-stylus-scoped`    | Vue + Pug + Class Component + Stylus + Scoped              |
-| `vpug-ts`                  | Vue + Pug + TypeScript                                     |
-| `vpug-ts-scoped`           | Vue + Pug + TypeScript + Scoped                            |
-| `vpug-ts-scss`             | Vue + Pug + TypeScript + Scss                              |
-| `vpug-ts-scss-scoped`      | Vue + Pug + TypeScript + Scss + Scoped                     |
-| `vpug-ts-less`             | Vue + Pug + TypeScript + Less                              |
-| `vpug-ts-less-scoped`      | Vue + Pug + TypeScript + Less + Scoped                     |
-| `vpug-ts-stylus`           | Vue + Pug + TypeScript + Stylus                            |
-| `vpug-ts-stylus-scoped`    | Vue + Pug + TypeScript + Stylus + Scoped                   |
-| `vpug-ts-cc`               | Vue + Pug + TypeScript + Class Component                   |
-| `vpug-ts-cc-scoped`        | Vue + Pug + TypeScript + Class Component + Scoped          |
-| `vpug-ts-cc-scss`          | Vue + Pug + TypeScript + Class Component + Scss            |
-| `vpug-ts-cc-scss-scoped`   | Vue + Pug + TypeScript + Class Component + Scss + Scoped   |
-| `vpug-ts-cc-less`          | Vue + Pug + TypeScript + Class Component + Less            |
-| `vpug-ts-cc-less-scoped`   | Vue + Pug + TypeScript + Class Component + Less + Scoped   |
-| `vpug-ts-cc-stylus`        | Vue + Pug + TypeScript + Class Component + Stylus          |
-| `vpug-ts-cc-stylus-scoped` | Vue + Pug + TypeScript + Class Component + Stylus + Scoped |
+| Snippet                    | Base Component with ...                                     |
+| -------------------------- | ----------------------------------------------------------- |
+| `vpug`                     | Vue + Pug                                                   |
+| `vpug-scoped`              | Vue + Pug + Scoped                                          |
+| `vpug-scss`                | Vue + Pug + Scss                                            |
+| `vpug-scss-scoped`         | Vue + Pug + Scss + Scoped                                   |
+| `vpug-less`                | Vue + Pug + Less                                            |
+| `vpug-less-scoped`         | Vue + Pug + Less + Scoped                                   |
+| `vpug-stylus`              | Vue + Pug + Stylus                                          |
+| `vpug-stylus-scoped`       | Vue + Pug + Stylus + Scoped                                 |
+| `vpug-cc`                  | Vue + Pug + Class Component                                 |
+| `vpug-cc-scoped`           | Vue + Pug + Class Component + Scoped                        |
+| `vpug-cc-scss`             | Vue + Pug + Class Component + Scss                          |
+| `vpug-cc-scss-scoped`      | Vue + Pug + Class Component + Scss + Scoped                 |
+| `vpug-cc-less`             | Vue + Pug + Class Component + Less                          |
+| `vpug-cc-less-scoped`      | Vue + Pug + Class Component + Less + Scoped                 |
+| `vpug-cc-stylus`           | Vue + Pug + Class Component + Stylus                        |
+| `vpug-cc-stylus-scoped`    | Vue + Pug + Class Component + Stylus + Scoped               |
+| `vpug-dc`                  | Vue + Pug + Define Component                                |
+| `vpug-dc-scoped`           | Vue + Pug + Define Component + Scoped                       |
+| `vpug-dc-scss`             | Vue + Pug + Define Component + Scss                         |
+| `vpug-dc-scss-scoped`      | Vue + Pug + Define Component + Scss + Scoped                |
+| `vpug-dc-less`             | Vue + Pug + Define Component + Less                         |
+| `vpug-dc-less-scoped`      | Vue + Pug + Define Component + Less + Scoped                |
+| `vpug-dc-stylus`           | Vue + Pug + Define Component + Stylus                       |
+| `vpug-dc-stylus-scoped`    | Vue + Pug + Define Component + Stylus + Scoped              |
+| `vpug-ts`                  | Vue + Pug + TypeScript                                      |
+| `vpug-ts-scoped`           | Vue + Pug + TypeScript + Scoped                             |
+| `vpug-ts-scss`             | Vue + Pug + TypeScript + Scss                               |
+| `vpug-ts-scss-scoped`      | Vue + Pug + TypeScript + Scss + Scoped                      |
+| `vpug-ts-less`             | Vue + Pug + TypeScript + Less                               |
+| `vpug-ts-less-scoped`      | Vue + Pug + TypeScript + Less + Scoped                      |
+| `vpug-ts-stylus`           | Vue + Pug + TypeScript + Stylus                             |
+| `vpug-ts-stylus-scoped`    | Vue + Pug + TypeScript + Stylus + Scoped                    |
+| `vpug-ts-cc`               | Vue + Pug + TypeScript + Class Component                    |
+| `vpug-ts-cc-scoped`        | Vue + Pug + TypeScript + Class Component + Scoped           |
+| `vpug-ts-cc-scss`          | Vue + Pug + TypeScript + Class Component + Scss             |
+| `vpug-ts-cc-scss-scoped`   | Vue + Pug + TypeScript + Class Component + Scss + Scoped    |
+| `vpug-ts-cc-less`          | Vue + Pug + TypeScript + Class Component + Less             |
+| `vpug-ts-cc-less-scoped`   | Vue + Pug + TypeScript + Class Component + Less + Scoped    |
+| `vpug-ts-cc-stylus`        | Vue + Pug + TypeScript + Class Component + Stylus           |
+| `vpug-ts-cc-stylus-scoped` | Vue + Pug + TypeScript + Class Component + Stylus + Scoped  |
+| `vpug-ts-dc`               | Vue + Pug + TypeScript + Define Component                   |
+| `vpug-ts-dc-scoped`        | Vue + Pug + TypeScript + Define Component + Scoped          |
+| `vpug-ts-dc-scss`          | Vue + Pug + TypeScript + Define Component + Scss            |
+| `vpug-ts-dc-scss-scoped`   | Vue + Pug + TypeScript + Define Component + Scss + Scoped   |
+| `vpug-ts-dc-less`          | Vue + Pug + TypeScript + Define Component + Less            |
+| `vpug-ts-dc-less-scoped`   | Vue + Pug + TypeScript + Define Component + Less + Scoped   |
+| `vpug-ts-dc-stylus`        | Vue + Pug + TypeScript + Define Component + Stylus          |
+| `vpug-ts-dc-stylus-scoped` | Vue + Pug + TypeScript + Define Component + Stylus + Scoped |
 
 ### Template Snippets
 

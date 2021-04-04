@@ -1,4 +1,9 @@
-# Change Log
+# CHANGELOG
+
+## 0.4.0
+
+- 16 new base snippets with `defineComponent` added to support `vue-3`
+- Empty lines at template removed for support `vue-3`'s Pug parser.
 
 ## 0.3.0
 

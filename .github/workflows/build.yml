@@ -1,0 +1,11 @@
+name: Build Extension
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install VSCE globally
+        run: npm install -g vsce
+      - name: Build
+        run: npm run build

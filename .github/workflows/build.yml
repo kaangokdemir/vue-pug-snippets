@@ -6,6 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install VSCE globally
-        run: npm install -g vsce
+        run: sudo npm install -g vsce
       - name: Build
         run: npm run build

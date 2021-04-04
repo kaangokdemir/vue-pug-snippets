@@ -124,10 +124,6 @@ This is a VS Code snippet extension for `.vue` files with Pug.js templating. The
 
 Kaan Gökdemir - Maintainer ([@kaangokdemir](https://twitter.com/kaangokdemir)) - [kaangokdemir.com](https://kaangokdemir.com)
 
-## TODO
-
-- Add`vue3` composition API support.
-
 ## License
 
 MIT

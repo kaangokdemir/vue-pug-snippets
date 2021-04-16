@@ -53,6 +53,24 @@
     ],
     "description": "Vue + Pug + Scss"
   },
+  "vue-pug-sass": {
+    "prefix": "vpug-sass",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"sass\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Sass"
+  },
   "vue-pug-scss-scoped": {
     "prefix": "vpug-scss-scoped",
     "body": [
@@ -70,6 +88,24 @@
       ""
     ],
     "description": "Vue + Pug + Scss + Scoped"
+  },
+  "vue-pug-sass-scoped": {
+    "prefix": "vpug-sass-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"sass\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Sass + Scoped"
   },
   "vue-pug-less": {
     "prefix": "vpug-less",
@@ -203,6 +239,26 @@
     ],
     "description": "Vue + Pug + Class Component + Scss"
   },
+  "vue-pug-cc-sass": {
+    "prefix": "vpug-cc-sass",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"sass\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Class Component + Sass"
+  },
   "vue-pug-cc-scss-scoped": {
     "prefix": "vpug-cc-scss-scoped",
     "body": [
@@ -222,6 +278,26 @@
       ""
     ],
     "description": "Vue + Pug + Class Component + Scss + Scoped"
+  },
+  "vue-pug-cc-sass-scoped": {
+    "prefix": "vpug-cc-sass-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"sass\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Class Component + Sass + Scoped"
   },
   "vue-pug-cc-less": {
     "prefix": "vpug-cc-less",
@@ -363,6 +439,26 @@
     ],
     "description": "Vue + Pug + Define Component + Scss"
   },
+  "vue-pug-dc-sass": {
+    "prefix": "vpug-dc-sass",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"sass\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Sass"
+  },
   "vue-pug-dc-scss-scoped": {
     "prefix": "vpug-dc-scss-scoped",
     "body": [
@@ -382,6 +478,26 @@
       ""
     ],
     "description": "Vue + Pug + Define Component + Scss + Scoped"
+  },
+  "vue-pug-dc-sass-scoped": {
+    "prefix": "vpug-dc-sass-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script>",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"sass\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Sass + Scoped"
   },
   "vue-pug-dc-less": {
     "prefix": "vpug-dc-less",
@@ -523,6 +639,26 @@
     ],
     "description": "Vue + Pug + TypeScript + Scss"
   },
+  "vue-pug-ts-sass": {
+    "prefix": "vpug-ts-sass",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import Vue from 'vue'",
+      "",
+      "export default Vue.extend({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"sass\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Sass"
+  },
   "vue-pug-ts-scss-scoped": {
     "prefix": "vpug-ts-scss-scoped",
     "body": [
@@ -542,6 +678,26 @@
       ""
     ],
     "description": "Vue + Pug + TypeScript + Scss + Scoped"
+  },
+  "vue-pug-ts-sass-scoped": {
+    "prefix": "vpug-ts-sass-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import Vue from 'vue'",
+      "",
+      "export default Vue.extend({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"sass\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Sass + Scoped"
   },
   "vue-pug-ts-less": {
     "prefix": "vpug-ts-less",
@@ -683,6 +839,26 @@
     ],
     "description": "Vue + Pug + TypeScript + Class Component + Scss"
   },
+  "vue-pug-ts-cc-sass": {
+    "prefix": "vpug-ts-cc-sass",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"sass\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Class Component + Sass"
+  },
   "vue-pug-ts-cc-scss-scoped": {
     "prefix": "vpug-ts-cc-scss-scoped",
     "body": [
@@ -702,6 +878,26 @@
       ""
     ],
     "description": "Vue + Pug + TypeScript + Class Component + Scss + Scoped"
+  },
+  "vue-pug-ts-cc-sass-scoped": {
+    "prefix": "vpug-ts-cc-sass-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export default class ${0:${TM_FILENAME_BASE}} extends Vue {",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"sass\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + TypeScript + Class Component + Sass + Scoped"
   },
   "vue-pug-ts-cc-less": {
     "prefix": "vpug-ts-cc-less",
@@ -843,6 +1039,26 @@
     ],
     "description": "Vue + Pug + Define Component + Scss"
   },
+  "vue-pug-ts-dc-sass": {
+    "prefix": "vpug-ts-dc-sass",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"scss\"></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Sass"
+  },
   "vue-pug-ts-dc-scss-scoped": {
     "prefix": "vpug-ts-dc-scss-scoped",
     "body": [
@@ -862,6 +1078,26 @@
       ""
     ],
     "description": "Vue + Pug + Define Component + Scss + Scoped"
+  },
+  "vue-pug-ts-dc-sass-scoped": {
+    "prefix": "vpug-ts-dc-sass-scoped",
+    "body": [
+      "<template lang=\"pug\">",
+      "${1:.${TM_FILENAME_BASE}}",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:${TM_FILENAME_BASE}}'",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"sass\" scoped></style>",
+      ""
+    ],
+    "description": "Vue + Pug + Define Component + Sass + Scoped"
   },
   "vue-pug-ts-dc-less": {
     "prefix": "vpug-ts-dc-less",

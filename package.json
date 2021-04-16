@@ -2,7 +2,7 @@
   "name": "vue-pug-snippets",
   "displayName": "vue-pug-snippets",
   "description": "Pug.js syntax VS Code snippets for Vue files",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "publisher": "kaangokdemir",
   "icon": "images/vue-pug.png",
   "repository": {

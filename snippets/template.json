@@ -19,6 +19,13 @@
     ],
     "description": "v-for inline with index and key"
   },
+  "v-if": {
+    "prefix": "v-if",
+    "body": [
+      "v-if=\"${0}\""
+    ],
+    "description": "Simple inline v-if statement."
+  },
   "vmodel": {
     "prefix": "vmodel",
     "body": ["${1:input}(v-model=\"${0:data}\")"],
